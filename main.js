@@ -24,11 +24,4 @@ function updateCountdown() {
   ).innerHTML = `${days} dagar, ${hours} timmar, ${minutes} minuter och ${seconds} sekunder`;
 }
 
-const button = document.getElementById("button");
-
-button.addEventListener("click", () => {
-  MIDIjs.play("Aerosmith_-_I_Don't_Wanna_Miss_a_Thing.mid");
-  button.remove();
-});
-
 updateCountdown();
