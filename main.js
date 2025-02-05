@@ -21,7 +21,7 @@ function updateCountdown() {
 
   document.getElementById(
     "countdown"
-  ).innerHTML = `${days} dagar, ${hours} timmar, ${minutes} minuter, ${seconds} sekunder`;
+  ).innerHTML = `${days} dagar, ${hours} timmar, ${minutes} minuter och ${seconds} sekunder`;
 }
 
 updateCountdown();
