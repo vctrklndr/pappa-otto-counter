@@ -23,6 +23,15 @@ main {
   max-width: 1024px;
 }
 
+button {
+  padding: 20px 40px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  border-radius: 100px;
+  font-family: "Roboto Mono", serif;
+}
+
 .rotate-center {
   animation: rotate-center 0.6s ease-in-out both infinite;
 }
