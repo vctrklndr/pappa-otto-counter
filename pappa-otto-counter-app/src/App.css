@@ -1,0 +1,53 @@
+.App {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  height: 100vh;
+  width: 100%;
+}
+
+.ImageContainer {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.PappaOtto {
+  width: 164px;
+  height: 239px;
+}
+
+.Banner {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.Title,
+.Countdown {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Roboto Mono", serif;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.RotateCenter {
+  animation-name: rotate;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
